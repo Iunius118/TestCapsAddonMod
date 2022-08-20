@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Unlicense"
+# issueTrackerURL=""
+
+[[mods]]
+modId="testcapsaddonmod"
+version="${file.jarVersion}"
+displayName="Test Caps Add-on Mod"
+# updateJSONURL=""
+# displayURL=""
+# logoFile=""
+credits=""
+authors=""
+# displayTest=""
+description=""
+
+[[dependencies.testcapsaddonmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.testcapsaddonmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.testcapsaddonmod]]
+    modId="testcapsmod"
+    mandatory=false
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"

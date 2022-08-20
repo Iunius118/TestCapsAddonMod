@@ -1,0 +1,25 @@
+# Ignore all
+/*
+
+# Exclude source
+!/src/
+
+# Exclude docs
+!/docs/
+
+# GitHub
+!/.github/
+
+# Gradle
+!/gradle/
+!gradle.properties
+!settings.gradle
+!build.gradle
+!gradlew*
+
+# Others
+!.gitignore
+!.gitattributes
+!LICENSE*
+!README*
+!*.md
